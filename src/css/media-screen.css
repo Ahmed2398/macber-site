@@ -1,0 +1,81 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .circle-search {
+      width: 70px;
+      height: 45px;
+    }
+    .circle-search .search-icon {
+      top: 17px;
+      right:19px;
+    }
+    .our-box{
+        padding-right: 0;
+    }
+    .list-icons{
+      display: flex !important ;
+      justify-content: space-between !important;
+    }
+    
+    .landsape{
+      display: none;
+    }
+    .head-game h1{
+      font-size: var( --font-size-31);
+    }
+    .head-game p{
+      font-size: var( --font-size-25);
+    }
+    .text-description{
+      margin: 0 !important;
+    }
+    .btn-margin{
+      margin: 10px 0px;
+      
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    /* .circle-search {
+      background: green;
+    } */
+    .list-icons{
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .box .img-iconbox {
+        left: 45%;
+  }
+  .list-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.img-mobile{
+  display: none;
+}
+  } 
+
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .box .img-iconbox {
+        left: 42%;
+    }
+    .content-dep {
+        padding: 30px 10px  30px;
+        /* left: 5%; */
+    }
+    .list-icons{
+      display: grid;
+      justify-content: flex-end;
+  }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+  }
