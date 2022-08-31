@@ -12,6 +12,12 @@
 .brief .text-lead{
   line-height: 2.2;
   font-size: 22px;
+  text-transform: lowercase;
+}
+.brief .text-lead::first-letter{
+  line-height: 2.2;
+  font-size: 22px;
+  text-transform: uppercase;
 }
 .brief .head-brief{
   color: var(--secondary-color);
@@ -24,7 +30,7 @@ font-family: Poppins-Bold;
 font-style: normal;
 font-weight: var(--font-weight-bold);
 font-size: var(--font-size-61);
-text-transform: uppercase;
+text-transform: capitalize;
 animation: wiggle 2s linear infinite;
 }
 .head-text{
@@ -47,4 +53,37 @@ animation: shake 150ms 2 linear;
   line-height: 2.2;
   font-size: 18px;
   font-family: Poppins-Regular;
+  text-transform: lowercase;
 }
+.text-description::first-letter{
+  text-transform: uppercase !important;
+ 
+}
+/* Style tab links */
+.tablink {
+  background-color: var(--primary-color1);
+  color: white;
+  float: left;
+  border: 1px solid;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: var(--accent-color);
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+  transition: 2s;
+}
+
+#Ar {background-color: #fff;}

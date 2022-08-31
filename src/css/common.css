@@ -2,7 +2,11 @@
 *{
   text-decoration: none !important;
   font-family: Poppins-Medium;
-    text-transform: capitalize;
+  text-transform: lowercase;
+}
+
+*::first-letter{
+  text-transform: uppercase;
 }
 
 :root{

@@ -224,6 +224,28 @@
       .sidenav {padding-top: 15px;}
       /* .sidenav a {font-size: 18px;} */
     }
+
+    .dropdown-menu  {
+      background-color: transparent;
+      border: none;
+       /* font-size: var(--font-size-16); */
+       color: var(--neutral-color1);
+    
+       transition: 0.3s;
+       cursor: pointer;
+       text-align: center;
+    }
+    .dropdown-menu a:hover{
+      transition: 3s;
+      transform: scale(1.4);
+
+      color: var(--accent-color);
+      border: none;
+      background-color: transparent;
+    }
+    .dropdown-item {
+      padding: 0;
+    }
       
   .circle-search{
       width: 55px;
